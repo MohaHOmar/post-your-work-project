@@ -1,27 +1,46 @@
->**Note**: Please **fork** this Udacity repository so you have a **remote** repository in **your** GitHub account. Then you can clone the remote repository to your local machine. Later, as a part of the project, you will push your changes to the remote repository in your GitHub account.
+# Bikeshare Project
 
+## Overview
 
-# Project Title
+This project uses Python to explore bikeshare data from major US cities. The program allows users to select a city, month, and day, then displays useful statistics about travel times, stations, trip durations, and user demographics.
 
-Describe what your project is about and what it does
+## Files Included
 
-## Information about how to use your project
+* bikeshare.py – Main Python script
+* README.md – Project documentation
+* new_york_city.csv – Data file (ignored by Git)
+* .gitignore – Prevents CSV files from being tracked
 
-This could include:
+## Requirements
 
-- Step-by-step instructions for installing or setting up your project.
-- Any software dependencies that need to be installed.
-- Instructions and examples for how to use your project, including any helpful code snippets.
-- Common issues and troubleshooting tips
+* Python 3.x
+* Pandas
+* NumPy
 
-## Contribution guidelines
+## Usage
 
-If you welcome contributions, provide guidelines on how others can contribute to your project.
+Run the program using:
 
-## Credits
+```bash
+python bikeshare.py
+```
 
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The program will ask for:
 
-## Date created
+* City
+* Month
+* Day of week
 
-Include the date you created this project and README file.
+It will then display statistics based on the selected filters.
+
+## Features
+
+* Most common travel times
+* Most popular stations
+* Trip duration statistics
+* User demographics
+* Raw data display
+
+## Author
+
+Mohammad Omar
